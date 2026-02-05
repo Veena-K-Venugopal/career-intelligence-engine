@@ -1,0 +1,23 @@
+# --- Security ---
+.env
+*.pem
+secrets.json
+
+# --- Python (Backend) ---
+backend/venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- JavaScript (Frontend) ---
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# --- OS / IDE ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
