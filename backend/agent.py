@@ -1,5 +1,9 @@
 from pydantic import BaseModel, Field 
 from typing import List
+import os
+from google import genai
+
+client = genai.Client(api_key=os.getenv("GENAI_API_KEY"))
 
 # The "Child" - describes one single skill
 class SkillInference(BaseModel):

@@ -4,7 +4,7 @@
 secrets.json
 
 # --- Python (Backend) ---
-backend/venv/
+venv/
 __pycache__/
 *.py[cod]
 *$py.class
@@ -21,3 +21,4 @@ frontend/build/
 .idea/
 .vscode/
 *.swp
+!.vscode/settings.json
